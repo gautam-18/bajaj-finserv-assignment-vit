@@ -2,9 +2,9 @@ import { Request, Response } from "express";
 import { BfhlRequest, BfhlResponse } from "../types";
 import { processData } from "../utils/dataProcessor";
 
-const USER_ID = "john_doe_17091999";
-const EMAIL = "john@xyz.com";
-const ROLL_NUMBER = "ABCD123";
+const USER_ID = "gautam_18";
+const EMAIL = "gautam.arora2022a@vitstudent.ac.in";
+const ROLL_NUMBER = "22BDS0010";
 
 export const handleBfhlPost = (req: Request, res: Response): void => {
   try {
